@@ -6,6 +6,10 @@ Note: for the purposes of this kata you will assume that it is a square if its l
 */
 
 const areaOrPerimeter = function(l , w) {
-    if (l===w) return l*w
-    return 2 * (l+w)
-  };
+  // Return your answer
+  if ( l === w) {
+    return l * w 
+  }else {
+    return 2 *(l+w)
+  }
+}
