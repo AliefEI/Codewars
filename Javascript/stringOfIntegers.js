@@ -3,7 +3,7 @@ Write a function that takes a string which has integers inside it separated by s
 Example
 summy("1 2 3")  ==> 6
 Good luck!
-*/
+
 
 function summy(stringOfInts){
     return stringOfInts.split(' ').reduce((acc, item) => Number(item) + acc, 0) //... sum of ints found in string
