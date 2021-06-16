@@ -18,4 +18,4 @@ function solution(roman){
       preVal = values[letter] //stores current value for next time in order to check for subtraction
     })
     return result
-  }
+  
