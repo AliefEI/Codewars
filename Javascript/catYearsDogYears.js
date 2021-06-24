@@ -35,3 +35,11 @@ var humanYearsCatYearsDogYears = function(humanYears) {
   
     return [humanYears, catYears, dogYears];
   }
+
+  /*
+  created a set counter for catYears and dogYears 
+  since there are 3 conditions for the amount of years for both cats and dogs, created a if/else if condition-- for year 1, 2 and the years that follows. 
+  since we have to return an array, had to state which indecies belongs with what. 
+  creating the last else if had to decrease the humanYears by 2 since the 24 already accounts for the year 1 and year 2.
+  */
+
