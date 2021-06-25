@@ -19,6 +19,7 @@ pseucode --
     if else last order doesnt contain '?' add '? ' by using 'push' method then join
 */
 
+
 function ensureQuestion(s) {
     let array = s.split("");
     if (array[array.length - 1] === '?') {
