@@ -18,3 +18,8 @@ function solve(stones) {
   }
   return count
 }
+
+//one line
+function solve(stones) {
+    return stones.split('').reduce((counter, item, index) => stones[index] === stones[index + 1] ? counter+1 : counter, 0)
+  }
