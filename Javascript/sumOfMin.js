@@ -9,6 +9,7 @@ For Example:
 ]
 */
 
+
 function sumOfMinimums(arr) {
   let array = []
   for(let i = 0; i < arr.length; i++){
@@ -16,3 +17,8 @@ function sumOfMinimums(arr) {
   }
   return array.reduce((a,b) => a + b, 0)
 }
+
+//Shorter solution
+function sumOfMinimums(arr) {
+    return arr.reduce((p, c) => p + Math.min(...c), 0);
+  }
