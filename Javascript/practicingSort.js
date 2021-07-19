@@ -49,3 +49,21 @@ function solution(nums){
       })
     }
   }
+
+
+/*
+Take/review information
+
+  -when using sort consider....
+    - the amount values in  the list 
+    - notes on sort:
+        - arrays containing 10 or fewer elements has TIME complexity of O(n^2) and a SPACE complexity of O(1)
+        - arrays containing longer elements has time complecity of O(nlog(n)) on average and a SPACE complexity of O(log(n))
+        - how to sort element
+            - ascending: take argument/parameter use (.sort()) where inside sort create a function with param of a and b, then return a-b inside the functional block 
+                i.e nums.sort(function(a,b){return a-b})
+            - decending: take argumnent/parameter use (.sort) where inside sort create a fucntion with param sof a and b, return b-a inside the functional block 
+                i.e nums.sort(function(a,b){return b-a})
+
+
+*/
