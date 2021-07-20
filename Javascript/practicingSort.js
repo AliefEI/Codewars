@@ -59,11 +59,26 @@ Take/review information
     - notes on sort:
         - arrays containing 10 or fewer elements has TIME complexity of O(n^2) and a SPACE complexity of O(1)
         - arrays containing longer elements has time complecity of O(nlog(n)) on average and a SPACE complexity of O(log(n))
-        - how to sort element
+        - how to sort element (NUMBER)
             - ascending: take argument/parameter use (.sort()) where inside sort create a function with param of a and b, then return a-b inside the functional block 
-                i.e nums.sort(function(a,b){return a-b})
+                i.e. nums.sort(function(a,b){return a-b})
             - decending: take argumnent/parameter use (.sort) where inside sort create a fucntion with param sof a and b, return b-a inside the functional block 
-                i.e nums.sort(function(a,b){return b-a})
-
-
+                i.e. nums.sort(function(a,b){return b-a})
+        - how to sort element-- alphabetically 
+            - A --> Z: easier than number, do NOT need comparison function 
+                i.e. let animals = ['cat', 'dog', 'tiger', 'elephant']
+                         animals.sort()
+                        console.log(animals) // ['cat', 'dog', 'elephant', 'tiger']
+            - Z --> A: slightly longer process than a-->z. take var/argument use (.sort) where inside sort, create a function similar to number sort.
+                i.e. let animals = ['cat', 'dog', 'tiger', 'elephant']
+                         animal.sort(function(a,b){
+                             if (a>b){
+                                 return -1
+                                }
+                             if (b>a){
+                                 return 1
+                             }return 0
+                         })
+                         console.log(animals) //['tiger', 'elephant', 'dog', 'cat']
+                
 */
