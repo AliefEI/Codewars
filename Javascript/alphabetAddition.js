@@ -1,4 +1,4 @@
-Instructions: 
+/*Instructions: 
 Your task is to add up letters to one letter.
 The function will be given a variable amount of arguments, each one being a letter to add.
 Notes:
