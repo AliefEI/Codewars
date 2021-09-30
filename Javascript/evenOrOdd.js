@@ -9,3 +9,8 @@ function even_or_odd(number) {
       return "Odd";
     }
   }
+
+/* One line Solution */
+  function even_or_odd(number) {
+    return number % 2 ? "Odd" : "Even"
+  }
