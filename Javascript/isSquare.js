@@ -31,14 +31,23 @@ things learned :
 
 var isSquare = function(arr){
     if (arr.length === 0) {
-        return undefined;
+        return undefined
     } else {
         for (i=0; i < arr.length; i++) {
-            let test = Math.sqrt(arr[i]);
+            let test = Math.sqrt(arr[i])
             if ( Number.isInteger(test) == false ) {
-                return false;
+                return false
             }
         }
-        return true;
+        return true
     }
-};
+}
+
+var isSquare = function(arr){
+    for (var i = 0; i < arr.length; i++) {
+      if(!Number.isInteger(Math.sqrt(arr[i]))) {
+        return false;
+      }
+    }
+    return arr.length ? true : undefined;
+  }
