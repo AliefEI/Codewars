@@ -23,3 +23,7 @@ function array(arr){
     data.shift();
     return data.length ? data.join(' ') : null;
     }
+/*One line answer*/
+function array(arr){
+    return arr.split(",").slice(1,-1).join(" ") || null;
+  }
