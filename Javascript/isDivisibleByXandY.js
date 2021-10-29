@@ -13,3 +13,9 @@ function isDivisible(n, x, y) {
         return Boolean(false)
       }
   }
+
+/* One Line Code */
+
+function isDivisible(n, x, y) {
+  return n % x === 0 && n % y === 0
+}
