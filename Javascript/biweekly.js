@@ -29,3 +29,29 @@ function solution(a, b){
   
 //lesson --> keep it simple stupid 
 // didn't need to turn string in to an array, can id the length of each string, then add the value of the string  
+
+
+
+/*
+paramter -- string
+return -- reversed name 
+example -- john smith // smith john 
+pseudocode --
+  - turn string into array by name 
+  - reverse name arrangement 
+  - combine two element in array into one 
+*/
+
+function nameShuffler(str){
+    //Shuffle It
+    let separateName = str.split(' ')
+    let name = separateName.reverse()
+    //console.log(name)
+    return name.join(' ')
+}
+
+// ONE Line answer
+function nameShuffler(str){
+    return str.split(' ').reverse().join(' ')
+  }
+
