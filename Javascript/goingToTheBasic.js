@@ -21,19 +21,7 @@ function multiply (x,y){
   
 
 /*
-parameter - string 
-return -- opposite cases for each letter 
-example -- strINg // STRinG
-pseudocode --
-  - turn string to array seperating it by letters
-  - create for loop to iterate all the items in the list 
-  - create if/else statement 
-    - if (i == )
-  - turn 
 
-*/
-
-/*
 Given a string, swap the case for each of the letters.
 
 e.g. CodEwArs --> cODeWaRS
@@ -44,6 +32,17 @@ Examples
 "abc"        ->   "ABC"
 "ABC"        ->   "abc"
 "123235"     ->   "123235"
+
+
+parameter - string 
+return -- opposite cases for each letter 
+example -- strINg // STRinG
+pseudocode --
+  - turn string to array seperating it by letters
+  - create for loop to iterate all the items in the list 
+  - create if/else statement 
+    - if (i == )
+  - turn 
 
 */
 
