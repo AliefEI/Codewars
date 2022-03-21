@@ -11,3 +11,10 @@ Assume test input string always valid and may look like "1 year old" or "5 years
 function getAge(inputString){
     return parseInt(inputString);
   }
+
+  /*Implement a function which multiplies two numbers. */
+
+
+function multiply (x,y){
+    return x*y
+}
