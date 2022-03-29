@@ -41,6 +41,14 @@ http://cslibrary.stanford.edu/105/LinkedListProblems.pdf
 FUNDAMENTALSLINKED LISTSLISTSDATA STRUCTURES
 */
 
+/*
+parameter -- data
+return -- node an d index of a given data
+psuedocode --
+    - call for data 
+    - to get the Nth node and index 
+*/
+
 function Node(data) {
     this.data = data;
     this.next = null;
