@@ -62,9 +62,12 @@ function grid(N) {
         result += String.fromCharCode(letter);
   
         result += j % N === N - 1 ? '\n' : ' ';
+        //needed new line to be created and spaces between the letters 
       }
     }
   
     return result.slice(0, -1);
   }
+
+  
   
