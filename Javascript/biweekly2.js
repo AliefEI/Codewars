@@ -15,3 +15,5 @@ function capitalizeWord(word) {
   //   console.log(result)
     return String(result)
   }
+
+  
