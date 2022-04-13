@@ -13,12 +13,13 @@ pseudocode --
 function vowelIndices(word){
     //your code here
     let result = []
-    let vowels = ['a', 'e', 'i', 'o', 'u', 'y', 'A', 'E', 'I', 'O', 'U', 'Y'];
-    for (var i = 0; i < word.length; i++) {
-      if (vowels.indexOf(word[i]) != -1) {
-        result.push(i + 1);
+    let vowels = ['a', 'e', 'i', 'o', 'u', 'y', 'A', 'E', 'I', 'O', 'U', 'Y']
+    let arrayWord = word.toLowerCase().split('')
+    //console.log(arrayWord)
+    for (var i = 0; i < arrayWord.length; i++) {
+      if (vowels.indexOf(arrayWord[i]) != -1) {
+        result.push(i + 1)
       }
     }
-    return result;
-    
-}
+    return result
+  }
