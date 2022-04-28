@@ -17,3 +17,6 @@ function solution(nums){
       return a - b
     });
   }
+
+
+  let solution = (nums) => (nums || []).sort((a,b) => (a-b))
