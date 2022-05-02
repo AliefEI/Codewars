@@ -12,5 +12,6 @@
     var isPalindrome = function(x) {
         //console.log(x)
         var newX = x.toString().split('').reverse().join('')
+        //console.log(newX)
         return x == newX
     }
