@@ -36,3 +36,5 @@ function dontGiveMeFive(start, end){
   //console.log(count)
   return count;
 }
+
+const dontGiveMeFive = (s, e, A=Array) => A.from(A(e-s+1).keys(), x => x+s).filter(x => !x.toString().includes('5')).length
