@@ -24,3 +24,8 @@ function squareOrSquareRoot(array) {
       console.log(result)
       return result;  
     }
+
+  //One liner //
+
+  
+  squareOrSquareRoot = array => array.map(x => Math.sqrt(x) % 1 ? x * x : Math.sqrt(x))
